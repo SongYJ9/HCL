@@ -109,7 +109,7 @@
 
    如果有 import error 按报错说明安装对应包即可
 
-3. 结果：可在程序结束运行后找到对应的 metrics.log 文件，例如运行 `train_cifar_mix.py --preset c10.20sym.AugDesc-WS --machine localPC_mix ` 后，log 文件在 `localPC_mix_checkpoints/c10/20sym/AugDesc-WS/saved/metrics.log` 这里。
+3. 结果：可在程序结束运行后找到对应的 metrics.log 文件，例如运行 `python train_cifar_mix.py --preset c10.20sym.AugDesc-WS --machine localPC_mix` 后，log 文件在 `localPC_mix_checkpoints/c10/20sym/AugDesc-WS/saved/metrics.log` 这里。
 
    当然也可以运行程序前用 `script log.txt` 自行记录命令行输出结果
 
